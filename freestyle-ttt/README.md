@@ -1,4 +1,4 @@
-![Think outside the box](./readme-assets/outsidethebox.jpg)
+![Think outside the box](../readme-assets/outsidethebox.jpg)
 
 # HOMEWORK: TIC TAC TOE
 
