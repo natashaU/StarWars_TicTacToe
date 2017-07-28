@@ -8,7 +8,7 @@
   * It's Tic Tac Toe!
 #### YaY!
 
-##### 🌟 You have some options:
+##### 🌟You have some options:
 
 In this file structure you will find 2 folders:
 * `freestyle-ttt` - to write your own Tic Tac Toe from scratch
@@ -20,7 +20,7 @@ In this file structure you will find 2 folders:
 - A link to your Tic Tac Toe on **BitBalloon**.
 - Completion, comfort, wins, losses, questions... you know the drill.
 
-#### This homework is due 🚨 11PM on SUNDAY NIGHT! 🚨
+## This homework is due 🚨 11PM on SUNDAY NIGHT! 🚨
 
 #### ❗️ Remember ...
 ![Motivation](https://info.examtime.com/files/2014/05/motivation-to-study1.jpg)
