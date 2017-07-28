@@ -1,4 +1,4 @@
-# Week 2 Weekend Lab - Tic Tac Toe
+# Tic Tac Toe
 
 Today you are going to build TicTacToe in JavaScript!
 
