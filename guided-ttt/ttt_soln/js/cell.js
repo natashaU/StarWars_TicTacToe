@@ -35,6 +35,7 @@ var btnsPlayed = [];
 
 
  function createX1() {
+  document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/73/db/97/73db97c0c4a9c9b009d69f21ea48ecdc--star-wars-birthday-darth-vader-birthday-cake.jpg')";
   var textNode = document.createTextNode("X");
   document.getElementById("1").appendChild(textNode);
   document.getElementById("1").setAttribute("style", "background-color: red;");
@@ -43,6 +44,7 @@ var btnsPlayed = [];
 }
 
 function createX2() {
+  document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/73/db/97/73db97c0c4a9c9b009d69f21ea48ecdc--star-wars-birthday-darth-vader-birthday-cake.jpg')";
   var textNode = document.createTextNode("X");
   document.getElementById("2").appendChild(textNode);
   document.getElementById("2").setAttribute("style", "background-color: red;");
@@ -60,6 +62,7 @@ function createX3() {
 }
 
 function createX4() {
+  document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/73/db/97/73db97c0c4a9c9b009d69f21ea48ecdc--star-wars-birthday-darth-vader-birthday-cake.jpg')";
   var textNode = document.createTextNode("X");
   document.getElementById("4").appendChild(textNode);
   document.getElementById("4").setAttribute("style", "background-color: red;");
@@ -68,6 +71,7 @@ function createX4() {
 }
 
 function createX5() {
+  document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/73/db/97/73db97c0c4a9c9b009d69f21ea48ecdc--star-wars-birthday-darth-vader-birthday-cake.jpg')";
   var textNode = document.createTextNode("X");
   document.getElementById("5").appendChild(textNode);
   document.getElementById("5").setAttribute("style", "background-color: red;");
@@ -85,6 +89,7 @@ function createX6() {
 }
 
 function createX7() {
+  document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/73/db/97/73db97c0c4a9c9b009d69f21ea48ecdc--star-wars-birthday-darth-vader-birthday-cake.jpg')";
   var textNode = document.createTextNode("X");
   document.getElementById("7").appendChild(textNode);
   document.getElementById("7").setAttribute("style", "background-color: red;");
@@ -93,6 +98,7 @@ function createX7() {
 }
 
 function createX8() {
+  document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/73/db/97/73db97c0c4a9c9b009d69f21ea48ecdc--star-wars-birthday-darth-vader-birthday-cake.jpg')";
   var textNode = document.createTextNode("X");
   document.getElementById("8").appendChild(textNode);
   document.getElementById("8").setAttribute("style", "background-color: red;");
