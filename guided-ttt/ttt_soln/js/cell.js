@@ -1,5 +1,5 @@
 
-
+//Updated Game
 // this is an object that holds the values of each button.
 var btnValue = {
   btn0:'0',
@@ -13,16 +13,16 @@ var btnValue = {
   btn8:'8',
 };
 
-//this is an array that keeps track of all the buttons played so that
-// the computer does not repeat a button.
+//this is an array that keeps track of all the squares played so that
+// the computer does not repeat a square.
 var btnsPlayed = [];
 
 
 // The following 0-8 functions inserts an "X" into the Tic Tac Toe Board using
-//Dom Manipulation for Buttonw 0-8, by grabbing the numerical ID of the button from the HTML
-//Code (ID is listed as 0-8). These functions adds buttons 0 to 8 to the array
-// of buttons played. This function sets the value of the specific button to 1.
-// All X's will have a value of 1, that is kept track of in the values object.
+//Dom Manipulation for squares 0-8, by grabbing the numerical ID of the square from the HTML
+//Code (ID is listed as 0-8). These functions adds squares 0 to 8 to the array
+// of buttonsplayed. These functions set the value of the specific Square to 1.
+// All X's will have a value of 1, that stored in the values object.
 
  function createX0() {
   var textNode = document.createTextNode("X");
@@ -114,8 +114,9 @@ var btnNum = aiChoice();
 // this function checks to see if any of the numbers are in the "Buttons Played"
 //Array, if there is a match, the function calls the AI choice function again
 // to create a new number, and the function calls itself to check again to see if
-//the number is in the array. The function is in a while loop that will keep
-//generating new numbers while the random number equals any numbers in the array.
+//the number is in the buttons played array. The function is in a while loop that will keep
+//generating new numbers while the random number equals any numbers in the
+// Buttons Played array.
 function isPlayed () {
   for (var i = 0; i < btnsPlayed.length; i++) {
     while (btnNum === btnsPlayed[i]) {
@@ -137,7 +138,7 @@ function addtoBtnsPlayed () {
 
 addtoBtnsPlayed();
 
-// this turns the numbers into a string
+// this turns the numbers created by the AI into a string
 var cellNumStr = cellNum.toString();
 
 // this function compares the string value of the numbers to the string value
@@ -174,8 +175,8 @@ setMatrixValue(cellNumStr)
 
 
 // This function adds a "O" to the board with the corresponding numerical
-//button if there is less than 10 numbers captured in the Numbers Played Array,
-// since there is only 9 options for buttons.
+//ID if there is less than 10 numbers captured in the Numbers Played Array,
+// since there is only 9 options for squares.
  if (btnsPlayed.length < 9) {
   var textNode = document.createTextNode("O");
   document.getElementById(cellNumStr).appendChild(textNode);
@@ -184,12 +185,14 @@ setMatrixValue(cellNumStr)
 };
 
 // This function checks to see who is the winner by adding the values
-// of the buttons. Remember each button equals 0 or 1. If any row of buttons
+// of the squares. Remember each square equals 0 or 1. If any row of squares
 //equals 0 then the computer has won (0+ 0+ 0), however, if any row equals the
 // number THREE, then the player has won because X = 1 and 1 + 1 + 1 = 3;
-//there are 8 possible lines to win the game (3 horizontal, 3 vertical, 3 diagonal);
-// if any of the button values is a winner, text is insertd using Dom Manipulation
-// that tells you who the winner is via a textNode insertion.
+
+//There are 8 possible lines to win the game (3 horizontal, 3 vertical, 3 diagonal);
+// if any of the rows equal 0 or 3, text is insertd using Dom Manipulation
+// that tells you who the winner is via a textNode insertion to the "winner"
+// ID at the top of the HTML code.
 function isWinner() {
   if (btnValue.btn0 + btnValue.btn1 + btnValue.btn2 === 3){
 
@@ -287,8 +290,10 @@ function isWinner() {
 
 
 // These functions call all the functions I just created when I click
-// on a correponding button from 0-8. For example, the first function creates an X if I click On Box1
-// and creates a Correponding AI "O" on a random box and checks to see if anybody has won the game.
+// on a correponding square from 0-8. For example, the first function
+// creates an X if I click On Square1
+// and creates a Correponding AI "O" on a random box and checks to
+//see if anybody has won the game.
 function onClick0() {
   createX0();
   createAiCellAttribute()
@@ -350,8 +355,9 @@ function reloadHere(){
   location.reload()
 }
 
-// these functions add an event Listner to each click on a correponding button,
-// for example, if the user clicks any Box from 0-8, all the functions will
+// these functions add an event Listner to each click on a correponding square,
+// for example, if the user clicks any square from 0-8, all the functions will
+// execute.
 
 window.onload = function() {
 document.getElementById("0").addEventListener('click', onClick0);
@@ -363,25 +369,9 @@ document.getElementById("5").addEventListener('click', onClick5);
 document.getElementById("6").addEventListener('click', onClick6);
 document.getElementById("7").addEventListener('click', onClick7);
 document.getElementById("8").addEventListener('click', onClick8);
-// this function reloads the page if you click the "reload" button after
-// you or the AI has won the game.
+// this function reloads the page if you click the "reload" button, preferably
+// the user should do this after the user or the AI has won the game.
 document.getElementById('button').addEventListener('click', reloadHere);
 }
 
 
-
-
-
-
-// text color for boxes:
-// 6c6c6c
-
-//btn0.addEventListener('click', createX);
-
-//window.onload = function() {
-//  btn0.addEventListener('click', createX);
-//}
-  /**
-   * @name {render} - Renders the cell value.
-	 * @return {number} - returns the value of the current cell
-  */
