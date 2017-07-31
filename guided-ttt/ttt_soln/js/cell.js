@@ -25,6 +25,7 @@ var btnsPlayed = [];
 // All X's will have a value of 1, that stored in the values object.
 
  function createX0() {
+  document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/73/db/97/73db97c0c4a9c9b009d69f21ea48ecdc--star-wars-birthday-darth-vader-birthday-cake.jpg')";
   var textNode = document.createTextNode("X");
   document.getElementById("0").appendChild(textNode);
   document.getElementById("0").setAttribute("style", "background-color: red;");
@@ -50,6 +51,7 @@ function createX2() {
 }
 
 function createX3() {
+  document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/73/db/97/73db97c0c4a9c9b009d69f21ea48ecdc--star-wars-birthday-darth-vader-birthday-cake.jpg')";
   var textNode = document.createTextNode("X");
   document.getElementById("3").appendChild(textNode);
   document.getElementById("3").setAttribute("style", "background-color: red;");
@@ -198,91 +200,91 @@ function isWinner() {
 
   var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
 
   } else if (btnValue.btn0 + btnValue.btn1 + btnValue.btn2 === 0){
 
   var textNode = document.createTextNode("AI WON :(");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
 
   } else if (btnValue.btn3 + btnValue.btn4 + btnValue.btn5 === 3){
 
   var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
 
   } else if (btnValue.btn3 + btnValue.btn4 + btnValue.btn5 === 0) {
 
   var textNode = document.createTextNode("AI WON :(");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
 
   } else if (btnValue.btn6 + btnValue.btn7 + btnValue.btn8 === 3) {
 
   var textNode = document.createTextNode("YOU WON");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
 
   } else if  (btnValue.btn6 + btnValue.btn7 + btnValue.btn8 === 0) {
   var textNode = document.createTextNode("AI WON!");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
 
   } else if (btnValue.btn0 + btnValue.btn3 + btnValue.btn6 === 3) {
 
   var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
 
   } else if (btnValue.btn0 + btnValue.btn3 + btnValue.btn6 === 0) {
 
   var textNode = document.createTextNode("AI WON!");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "#606b7c;")
 
   } else if (btnValue.btn1 + btnValue.btn4 + btnValue.btn7 === 3) {
 
   var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
 
   } else if (btnValue.btn1 + btnValue.btn4 + btnValue.btn7 === 0) {
   var textNode = document.createTextNode("AI WON!");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
 
   } else if (btnValue.btn2 + btnValue.btn5 + btnValue.btn8 === 3) {
   var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
 
   } else if (btnValue.btn2 + btnValue.btn5 + btnValue.btn8 === 0) {
   var textNode = document.createTextNode("AI WON!");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
 
   } else if (btnValue.btn2 + btnValue.btn4 + btnValue.btn6 === 3) {
   var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
 
   } else if (btnValue.btn2 + btnValue.btn4 + btnValue.btn6 === 0) {
 
   var textNode = document.createTextNode("AI WON!");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
 
   } else if (btnValue.btn0 + btnValue.btn4 + btnValue.btn8 === 3) {
 
   var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
 
   } else if (btnValue.btn0 + btnValue.btn4 + btnValue.btn8 === 0) {
   var textNode = document.createTextNode("AI WON!");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: blue;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
   }
 }
 
@@ -353,7 +355,7 @@ function onClick8() {
 
 // this function reloads the page
 function reloadHere(){
-  location.reload()
+  location.reload();
 }
 
 // these functions add an event Listner to each click on a correponding square,
