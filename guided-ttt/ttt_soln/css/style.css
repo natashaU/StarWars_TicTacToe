@@ -22,10 +22,23 @@ body {
 
   text-align: center;
   line-height: 160px;
-  color: #6c6c6c;
+  color: #000000;
   font-size: 100px;
+
 }
 
 .cell:hover {
   border: 3px solid #ccc0b3;
+}
+
+#button {
+  display: inline-block;
+  margin: 12px;
+  padding: 5px 15px;
+  font-size: 15px;
+  border: 3px solid #1D0444;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: pink;
+  transition: 0.2s all;
 }
