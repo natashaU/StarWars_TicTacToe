@@ -208,7 +208,7 @@ function isWinner() {
   var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: #606b7c;");
-  document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/73/db/97/73db97c0c4a9c9b009d69f21ea48ecdc--star-wars-birthday-darth-vader-birthday-cake.jpg')";
+  document.body.style.backgroundImage = "url('http://www.myfreewallpapers.net/starwars/wallpapers/han-solo.jpg')";
 
 
   } else if (btnValue.btn0 + btnValue.btn1 + btnValue.btn2 === 0){
