@@ -76,6 +76,7 @@ function createX5() {
 }
 
 function createX6() {
+  document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/73/db/97/73db97c0c4a9c9b009d69f21ea48ecdc--star-wars-birthday-darth-vader-birthday-cake.jpg')";
   var textNode = document.createTextNode("X");
   document.getElementById("6").appendChild(textNode);
   document.getElementById("6").setAttribute("style", "background-color: red;")
@@ -200,7 +201,7 @@ function isWinner() {
 
   var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
-  document.getElementById("winner").setAttribute("style", "color: #606b7c;")
+  document.getElementById("winner").setAttribute("style", "color: #606b7c;");
 
   } else if (btnValue.btn0 + btnValue.btn1 + btnValue.btn2 === 0){
 
