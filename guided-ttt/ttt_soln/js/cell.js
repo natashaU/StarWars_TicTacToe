@@ -297,6 +297,7 @@ function isWinner() {
 function onClick0() {
   createX0();
   createAiCellAttribute()
+  isWinner();
 }
 
 function onClick1() {
