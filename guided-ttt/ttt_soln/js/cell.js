@@ -196,91 +196,91 @@ setMatrixValue(cellNumStr)
 function isWinner() {
   if (btnValue.btn0 + btnValue.btn1 + btnValue.btn2 === 3){
 
-  var textNode = document.createTextNode("YOU WON!!");
+  var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
 
   } else if (btnValue.btn0 + btnValue.btn1 + btnValue.btn2 === 0){
 
-  var textNode = document.createTextNode("Ai won :(");
+  var textNode = document.createTextNode("AI WON :(");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
 
   } else if (btnValue.btn3 + btnValue.btn4 + btnValue.btn5 === 3){
 
-  var textNode = document.createTextNode("you won!");
+  var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
 
   } else if (btnValue.btn3 + btnValue.btn4 + btnValue.btn5 === 0) {
 
-  var textNode = document.createTextNode("AI won :(");
+  var textNode = document.createTextNode("AI WON :(");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
 
   } else if (btnValue.btn6 + btnValue.btn7 + btnValue.btn8 === 3) {
 
-  var textNode = document.createTextNode("you won!!");
+  var textNode = document.createTextNode("YOU WON");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
 
   } else if  (btnValue.btn6 + btnValue.btn7 + btnValue.btn8 === 0) {
-  var textNode = document.createTextNode("AI WON!!");
+  var textNode = document.createTextNode("AI WON!");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
 
   } else if (btnValue.btn0 + btnValue.btn3 + btnValue.btn6 === 3) {
 
-  var textNode = document.createTextNode("YOU WON!!");
+  var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
 
   } else if (btnValue.btn0 + btnValue.btn3 + btnValue.btn6 === 0) {
 
-  var textNode = document.createTextNode("AI WON!!");
+  var textNode = document.createTextNode("AI WON!");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
 
   } else if (btnValue.btn1 + btnValue.btn4 + btnValue.btn7 === 3) {
 
-  var textNode = document.createTextNode("You won!!");
+  var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
 
   } else if (btnValue.btn1 + btnValue.btn4 + btnValue.btn7 === 0) {
-  var textNode = document.createTextNode("AI won!!");
+  var textNode = document.createTextNode("AI WON!");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
 
   } else if (btnValue.btn2 + btnValue.btn5 + btnValue.btn8 === 3) {
-  var textNode = document.createTextNode("You won!!");
+  var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
 
   } else if (btnValue.btn2 + btnValue.btn5 + btnValue.btn8 === 0) {
-  var textNode = document.createTextNode("AI won!!");
+  var textNode = document.createTextNode("AI WON!");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
 
   } else if (btnValue.btn2 + btnValue.btn4 + btnValue.btn6 === 3) {
-  var textNode = document.createTextNode("You won!!");
+  var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
 
   } else if (btnValue.btn2 + btnValue.btn4 + btnValue.btn6 === 0) {
 
-  var textNode = document.createTextNode("AI won!!");
+  var textNode = document.createTextNode("AI WON!");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
 
   } else if (btnValue.btn0 + btnValue.btn4 + btnValue.btn8 === 3) {
 
-  var textNode = document.createTextNode("You won!!");
+  var textNode = document.createTextNode("YOU WON!");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
 
   } else if (btnValue.btn0 + btnValue.btn4 + btnValue.btn8 === 0) {
-  var textNode = document.createTextNode("AI won!!");
+  var textNode = document.createTextNode("AI WON!");
   document.getElementById("winner").appendChild(textNode);
   document.getElementById("winner").setAttribute("style", "color: blue;")
   }
