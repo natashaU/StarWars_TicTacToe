@@ -1,28 +1,24 @@
-### Week 1 Down!
-![javasript everywhere](https://img.devrant.io/devrant/rant/r_448785_RYEUg.jpg)
+### Star Wars Tic Tac Toe
+![Link to My Game](http://tictactoe-starwars.bitballoon.com/)
+
+![tictactoeimage](./tictactoe.png)
 
 
-----------
-#### 🚀 This weekend you will be building your first game!
+I used 3 languages to build my game:
+* HTML
+* CSS
+* Javascript
 
-  * It's Tic Tac Toe!
-#### YaY!
+#### User Versus an AI:
 
-##### 🌟You have some options:
+- A user X playes against an AI 
+- A random number is generated for the AI. The AI picks a square from 0-8
+- If the AI wins the background changes to Darth Vader.
 
-In this file structure you will find 2 folders:
-* `freestyle-ttt` - to write your own Tic Tac Toe from scratch
-* `guided-ttt` - here we provided css and some instructions to follow.
+![darthvader](./aitictac.png)
 
-#### 🚀 Your homework submission should include:
+![hansolo](./hansolo.png)
 
-- A pull request created on _this repo_.
-- A link to your Tic Tac Toe on **BitBalloon**.
-- Completion, comfort, wins, losses, questions... you know the drill.
 
-## This homework is due 🚨 11PM on SUNDAY NIGHT! 🚨
 
-#### ❗️ Remember ...
-![Motivation](https://info.examtime.com/files/2014/05/motivation-to-study1.jpg)
 
-#### ❗️ P.S. Look over the Calculator project we built in class ... maybe you find useful things there to get started  ...
