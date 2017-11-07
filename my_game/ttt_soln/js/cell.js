@@ -375,6 +375,8 @@ function onClick8() {
 }
 
 
+// remove event listner so a user can't click on a cell,
+//cellname.removeEventListener("click", onClick0)
 
 
 // this function reloads the page
