@@ -1,5 +1,6 @@
 ### Star Wars Tic Tac Toe
-![Link to My Game](http://tictactoe-starwars.bitballoon.com/)
+
+[Link to My Game Here](http://tictactoe-starwars.bitballoon.com/)
 
 ![tictactoeimage](./tictactoe.png)
 
@@ -21,7 +22,7 @@ I used the following languages to build my game:
 
 ![hansolo](./hansolo.png)
 
-### Algorithm I wrote to create A.I. "dark vader"
+### Algorithm I wrote to create "A.I."
 
 ```
 function createAiCellAttribute() {
